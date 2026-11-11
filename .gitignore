@@ -1,0 +1,25 @@
+# Arduino build outputs
+*.bin
+*.elf
+*.hex
+*.eep
+*.lst
+*.map
+
+# Arduino IDE temporary build folders
+build/
+bin/
+cache/
+*.build/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# ESP-IDF / PlatformIO (if used in future)
+.pio/
+.pioenvs/
+.piolibdeps/
